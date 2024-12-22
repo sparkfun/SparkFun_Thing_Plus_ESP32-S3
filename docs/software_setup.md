@@ -28,3 +28,13 @@ Most of the examples we cover in the next section use existing libraries include
 ## espressif IDF
 
 Users who prefer to use espressif's development toolkit, espressif IDF, can get started by following their instructions [here](https://www.espressif.com/en/products/sdks/esp-idf) and  ESP32-S3 specific documentation [here](https://docs.espressif.com/projects/esp-idf/en/stable/esp32S3/index.html). 
+
+## PlatformIO
+
+This board is supported in the latest version of `pioarduino/platform-espressif32`, to use it you can pull the development version of that platform:
+```
+[env:sparkfun_esp32s3_thing_plus]
+framework = arduino
+platform = https://github.com/pioarduino/platform-espressif32.git#develop
+board = sparkfun_esp32s3_thing_plus
+```

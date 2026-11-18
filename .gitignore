@@ -1,55 +1,60 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# SparkFun hardware repo .gitignore (SOP default, v1 2026-10-12)
+# Built from SparkFun_Default_KiCad_Setup + SparkFun_IoT_RedBoard-RP2350 / SFE_Repo_Template, modernized for KiCad 10.
+# NOTE: Production outputs (gerbers, drill, BOM/CPL, panels, ordering instructions) ARE committed. Do not add *.gbr, *.drl, *bom* here.
 
-#KiCad Backup file directory
+# ---------- KiCad (local state, caches, backups) ----------
 *.kicad_prl
-*.kicad_sch
 fp-info-cache
-~*.lck
+*-cache.lib
+*cache.lib
+*.kicad_pcb-bak
+*.kicad_sch-bak
 *-bak
-*-backups
-*-cache*
-*-bak*
+*-backups/
+_autosave-*
 _autosave*
 \#auto_saved_files\#
+~*.lck
+*.lck
+.history/
+# sym-lib-table / fp-lib-table are NOT ignored: project-local libraries (ARTWORK_*, PENDING_*) need them.
 
-#Eagle Backup files
+# ---------- Eagle (legacy boards) ----------
 *.s#?
 *.b#?
 *.l#?
-*.lck
 
-# Folder config file
-Desktop.ini
+# ---------- Agent / tooling local state ----------
+.claude/
+_*baseline/
+_*_staging/
+COMMIT_MSG.txt
+__pycache__/
+*.py[cod]
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# ---------- Editors ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.un~
+*~
+~$*
+*.bak
+*.tmp
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# ---------- OS ----------
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-
-# Thumbnails
 ._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+Icon?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+**/Claude/scratch/

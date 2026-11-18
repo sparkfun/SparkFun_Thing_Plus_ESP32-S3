@@ -17305,7 +17305,7 @@
 		(fields_autoplaced yes)
 		(uuid "f72f674c-b8f6-48b3-8888-b07b9b03b171")
 		(property "Reference" "U3"
-			(at 65.6941 87.63 0)
+			(at 65.6433 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17315,8 +17315,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1-N16R8"
-			(at 65.6941 90.17 0)
+		(property "Value" "ESP32-S3-WROOM"
+			(at 65.6433 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17326,8 +17326,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PENDING_SparkFun_Thing_Plus_ESP32-S3:ESP32-S3-WROOM-1-NARROW"
-			(at 63.5 209.55 0)
+		(property "Footprint" "SparkFun-RF:ESP32-S3-WROOM-1"
+			(at 63.5 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17338,7 +17338,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 63.5 214.63 0)
+			(at 63.5 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17360,7 +17360,7 @@
 			)
 		)
 		(property "PROD_ID" "IC-20683"
-			(at 63.5 212.09 0)
+			(at 63.5 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

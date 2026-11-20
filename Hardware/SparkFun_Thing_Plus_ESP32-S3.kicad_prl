@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffebf19_f5555ff5",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -94,18 +94,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      113,
-      103
+      222,
+      207,
+      136,
+      92,
+      136,
+      136,
+      136,
+      98,
+      136,
+      136,
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -127,12 +127,24 @@
         "name": "SparkFun_Thing_Plus_ESP32-S3.kicad_pcb",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
+          "pos_x": 1912,
           "pos_y": -8,
           "size_x": 1936,
           "size_y": 1056
+        }
+      },
+      {
+        "name": "SparkFun_Thing_Plus_ESP32-S3.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 1918,
+          "pos_y": 37,
+          "size_x": 1920,
+          "size_y": 1040
         }
       }
     ]
